@@ -1,0 +1,53 @@
+.plan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    height: 50px;
+    margin: 15px 25px 20px 25px;
+    padding: 17px;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.plan-icon {
+    width: 45px;
+}
+
+.pricing-container {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    padding-left: 3%;
+    text-align: left;
+}
+
+.plan-title {
+    font-weight: 900;
+    font-size: 14px;
+    color: hsl(223, 47%, 23%);
+}
+
+.plan-pricing {
+    font-weight: 700;
+    font-size: 14px;
+    color: hsl(220, 16%, 59%);
+}
+
+.plan-cta {
+    font-weight: 900;
+    font-size: 13px;
+    color: hsl(245, 75%, 52%);
+    transition: all ease-in-out 0.3s;
+}
+
+.plan-cta:hover {
+    text-decoration: none;
+    color: hsl(239, 100%, 70%);
+}
+
+@media only screen and (min-width: 600px) {
+    .plan {
+        margin: 0 45px 20px 45px;
+    }
+}

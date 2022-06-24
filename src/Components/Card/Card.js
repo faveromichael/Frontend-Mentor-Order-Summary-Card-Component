@@ -1,26 +1,24 @@
 import React from "react";
+import CardCover from "./CardCover/CardCover";
+import hero from "../../Assets/Images/illustration-hero.svg";
+import CardPlan from "./CardPlan/CardPlan";
+import CardButton from "./CardButton/CardButton";
 import "./Card.css";
 
 export default function Card (props) {
     return(
-        <div>
-            Order Summary
+        <div className="card-body">
+            <CardCover imageSrc={hero}/>
 
-            You can now listen to millions of songs, audiobooks, and podcasts on any 
-            device anywhere you like!
+            <h1 className="card-title">Order Summary</h1>
 
-            Annual Plan
-            $59.99/year
+            <p className="card-description">You can now listen to millions of songs, audiobooks, and podcasts on any 
+            device anywhere you like!</p>
 
-            Change
+            <CardPlan planType="Annual Plan" planPrice="$59.99/year"/>
 
-            Proceed to Payment
-            Cancel Order
-
-            <div class="attribution">
-                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-                Coded by <a href="#">Your Name Here</a>.
-            </div>
+            <CardButton type="primary">Proceed to Payment</CardButton>
+            <CardButton type="secondary">Cancel Order</CardButton>
         </div>
     );
 }
