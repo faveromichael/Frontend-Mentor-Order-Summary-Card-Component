@@ -6,6 +6,16 @@
 
 body {
     background-image: url("./Assets/Images/pattern-background-desktop.svg");
+    background-size: contain;
     background-repeat: no-repeat;
     background-color: hsl(225, 100%, 94%);
+}
+
+@media only screen and (min-width: 600px) {
+    .body {
+        background-image: url("./Assets/Images/pattern-background-mobile.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: hsl(225, 100%, 94%);
+    }
 }
