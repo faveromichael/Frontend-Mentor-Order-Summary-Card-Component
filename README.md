@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [GitHub Pages](https://faveromichael.github.io/Frontend-Mentor-Order-summary-component/)
+- Live Site URL: [GitHub Pages](https://faveromichael.github.io/Frontend-Mentor-Order-Summary-Card-Component/)
 
 ### Built with
 
